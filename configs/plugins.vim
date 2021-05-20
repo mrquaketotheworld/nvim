@@ -1,3 +1,4 @@
+"hello
 call plug#begin('~/.vim/plugged')
 "Languages~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Plug 'leafgarland/typescript-vim'
