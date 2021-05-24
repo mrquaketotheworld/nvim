@@ -3,4 +3,3 @@ autocmd FileType ruby call UseSpacesTwo()
 autocmd BufNewFile,BufRead *.tsx setlocal filetype=typescript.tsx
 autocmd FileType * call LSP_mappings()
 autocmd WinEnter term://* startinsert
-execute 'highlight link EndOfBuffer ColorColumn'

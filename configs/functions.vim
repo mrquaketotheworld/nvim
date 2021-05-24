@@ -50,10 +50,10 @@ endfunction
 
 function LSP_mappings()
     if &filetype != 'vim'
-        nmap <buffer> <silent> gd <Plug>(coc-definition)
+        nmap <buffer> <silent>gd <Plug>(coc-definition)
         nmap <buffer> <leader>m <Plug>(coc-rename)
-        xmap <buffer> <leader>a  <Plug>(coc-codeaction-selected)
-        nmap <buffer> <leader>a  <Plug>(coc-codeaction-selected)
+        xmap <buffer> <leader>a <Plug>(coc-codeaction-selected)
+        nmap <buffer> <leader>a <Plug>(coc-codeaction-selected)
         nnoremap <buffer> <silent> K :call <SID>show_documentation()<CR>
     endif
 endfunction

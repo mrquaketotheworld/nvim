@@ -5,3 +5,4 @@ source ~/.config/nvim/configs/plugin-mappings.vim
 source ~/.config/nvim/configs/plugin-variables.vim
 source ~/.config/nvim/configs/autocmd.vim
 source ~/.config/nvim/configs/functions.vim
+source ~/.config/nvim/configs/theme.vim
