@@ -32,13 +32,11 @@ let g:ale_linters = {
 let g:highlightedyank_highlight_duration = 300
 "Emmet
 let g:user_emmet_leader_key = '<C-Z>'
-let g:NERDTreeChDirMode = 3
 "Coc
 let g:coc_global_extensions = [
       \'coc-css',
       \'coc-html',
       \'coc-json',
-      \'coc-pairs',
       \'coc-snippets',
       \'coc-solargraph',
       \'coc-tsserver',

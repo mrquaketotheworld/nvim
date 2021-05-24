@@ -48,7 +48,7 @@ function! s:show_documentation()
     endif
 endfunction
 
-function LC_maps()
+function LSP_mappings()
     if &filetype != 'vim'
         nmap <buffer> <silent> gd <Plug>(coc-definition)
         nmap <buffer> <leader>m <Plug>(coc-rename)

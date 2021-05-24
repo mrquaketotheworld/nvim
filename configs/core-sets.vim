@@ -22,6 +22,7 @@ set inccommand=split
 set wildmode=full
 set hidden
 set showcmd
+set autochdir
 set termguicolors
 set laststatus=2
 set wildignore+=**/node_modules/**
@@ -30,6 +31,8 @@ set smarttab
 set ignorecase
 set infercase
 set smartcase
+set pumblend=20
+set winblend=20
 set nofoldenable
 set backup
 set backupcopy=yes
@@ -51,7 +54,7 @@ set shortmess-=S
 set shortmess+=c
 set backspace=indent,eol,start
 set background=dark
-colorscheme PaperColor
+colorscheme onedark
 "statusline
 set statusline=
 set statusline+=\%*

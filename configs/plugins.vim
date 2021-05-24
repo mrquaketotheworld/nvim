@@ -1,4 +1,3 @@
-"hello
 call plug#begin('~/.vim/plugged')
 "Languages~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Plug 'leafgarland/typescript-vim'
@@ -19,6 +18,7 @@ Plug 'mileszs/ack.vim'
 Plug 'w0rp/ale'
 Plug 'nelstrom/vim-visual-star-search'
 Plug 'sjl/gundo.vim'
+Plug 'jiangmiao/auto-pairs'
 Plug 'preservim/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 "Git~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
