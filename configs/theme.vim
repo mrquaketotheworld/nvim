@@ -1,4 +1,4 @@
-colorscheme onedark
+colorscheme PaperColor
 highlight link EndOfBuffer ColorColumn
 hi User1 guifg=#FFFFFF guibg=#191f26 gui=BOLD
 hi User2 guifg=#000000 guibg=#959ca6

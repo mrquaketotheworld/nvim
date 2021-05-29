@@ -1,7 +1,11 @@
 filetype plugin indent on
 syntax enable
 set updatetime=300
+set hidden
+set nobackup
+set nowritebackup
 set complete-=t
+set completeopt-=preview
 set smartindent
 set number
 set grepprg=rg\ --vimgrep\ --smart-case\ --follow
@@ -20,7 +24,6 @@ set splitright
 set list listchars=tab:→\ ,trail:·
 set inccommand=split
 set wildmode=full
-set hidden
 set showcmd
 set autochdir
 set termguicolors
@@ -34,9 +37,6 @@ set smartcase
 set pumblend=20
 set winblend=20
 set nofoldenable
-set backup
-set backupcopy=yes
-set backupdir=~/.nvim/_backup/
 set undofile
 set undodir=~/.nvim/_undo/
 set undolevels=1000
@@ -59,7 +59,7 @@ set statusline=
 set statusline+=\%*
 set statusline+=%3*\ %F
 set statusline+=%5*
-set statusline+=\ %{Current_git_branch()}
+set statusline+=\ %{CurrentGitBranch()}
 set statusline+=%4*\ %m
 set statusline+=%3*
 set statusline+=%=

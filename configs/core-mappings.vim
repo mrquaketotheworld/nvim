@@ -8,21 +8,21 @@ nnoremap <c-l> :nohl<cr><c-l>
 nnoremap <silent> [e :cp<CR>
 nnoremap <silent> ]e :cn<CR>
 "save buffer
-noremap <Leader>w :w!<CR>
+nnoremap <leader>w :w!<CR>
 "save and exit
-noremap <Leader>x :x!<CR>
+nnoremap <leader>x :x!<CR>
 "revert buffer
-noremap <silent><Leader>! :e!<CR>
+nnoremap <silent><leader>! :e!<CR>
 "delete buffer without closing window
-nnoremap <silent><Leader>c :bp<bar>sp<bar>bn<bar>bd!<CR>
+nnoremap <silent><leader>c :bp<bar>sp<bar>bn<bar>bd!<CR>
 "delete buffer with closing window
-nnoremap <silent><Leader>; :bd!<CR>
+nnoremap <silent><leader>; :bd!<CR>
 "only one window
-nnoremap <silent><Leader>o <C-w>o
+nnoremap <silent><leader>o <C-w>o
 "close window
-nnoremap <silent><Leader>q <C-w>q
+nnoremap <silent><leader>q <C-w>q
 "show registers
-noremap <Leader>r :reg<CR>
+nnoremap <leader>r :reg<CR>
 "jumps between widnows
 tnoremap <A-h> <C-\><C-N><C-w>h
 tnoremap <A-j> <C-\><C-N><C-w>j
@@ -37,7 +37,7 @@ nnoremap <A-j> <C-w>j
 nnoremap <A-k> <C-w>k
 nnoremap <A-l> <C-w>l
 "terminal open
-nnoremap <silent><Leader>v :vsplit term://bash<CR>:norm A<CR>
-nnoremap <silent><Leader>t :split term://bash<CR>:norm A<CR>
+nnoremap <silent><leader>v :vsplit term://bash<CR>:norm A<CR>
+nnoremap <silent><leader>t :split term://bash<CR>:norm A<CR>
 "terminal close
 tnoremap <silent><C-;> <C-\><C-N>:bd!<CR>

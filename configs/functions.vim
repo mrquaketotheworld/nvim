@@ -30,7 +30,7 @@ function! LinterStatus() abort
                 \)
 endfunction
 
-function! Current_git_branch()
+function! CurrentGitBranch()
     let l:branch = split(fugitive#statusline(),'[()]')
     if len(l:branch) > 1
         return remove(l:branch, 1)
@@ -38,8 +38,8 @@ function! Current_git_branch()
     return ""
 endfunction
 
-function! s:show_documentation()
-    if (index(['vim','help'], &filetype) >= 0)
+function! ShowDocumentation()
+    if &filetype == 'vim'
         execute 'h '.expand('<cword>')
     elseif (coc#rpc#ready())
         call CocActionAsync('doHover')
@@ -48,12 +48,3 @@ function! s:show_documentation()
     endif
 endfunction
 
-function LSP_mappings()
-    if &filetype != 'vim'
-        nmap <buffer> <silent>gd <Plug>(coc-definition)
-        nmap <buffer> <leader>m <Plug>(coc-rename)
-        xmap <buffer> <leader>a <Plug>(coc-codeaction-selected)
-        nmap <buffer> <leader>a <Plug>(coc-codeaction-selected)
-        nnoremap <buffer> <silent> K :call <SID>show_documentation()<CR>
-    endif
-endfunction

@@ -17,9 +17,9 @@ endif
 "FZF
 let g:fzf_preview_window = ''
 "ALE
+let g:ale_enabled = 0
 let g:ale_sign_error = '✖'
 let g:ale_sign_warning = '⚠'
-let g:ale_enabled = 1
 let g:ale_pattern_options = {
             \   '.rb': {'ale_enabled': 0},
             \   '.ru': {'ale_enabled': 0}
@@ -32,15 +32,12 @@ let g:ale_linters = {
 let g:highlightedyank_highlight_duration = 300
 "Emmet
 let g:user_emmet_leader_key = '<C-Z>'
-"Coc
-let g:coc_global_extensions = [
-      \'coc-css',
-      \'coc-html',
-      \'coc-json',
-      \'coc-snippets',
-      \'coc-solargraph',
-      \'coc-tsserver',
-      \]
-let g:coc_user_config = {
-            \   'diagnostic.enable': 0
-            \}
+let g:coc_global_extensions=[
+            \'coc-css',
+            \'coc-json',
+            \'coc-tsserver',
+            \'coc-java',
+            \'coc-solargraph',
+            \'coc-snippets',
+            \'coc-pyright'
+            \]
