@@ -40,4 +40,4 @@ nnoremap <A-l> <C-w>l
 nnoremap <silent><leader>v :vsplit term://bash<CR>:norm A<CR>
 nnoremap <silent><leader>t :split term://bash<CR>:norm A<CR>
 "terminal close
-tnoremap <silent><C-;> <C-\><C-N>:bd!<CR>
+tnoremap <silent><A-;> <C-\><C-N>:bd!<CR>
