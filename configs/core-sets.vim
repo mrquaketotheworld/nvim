@@ -8,7 +8,6 @@ set complete-=t
 set completeopt-=preview
 set smartindent
 set number
-set signcolumn=number
 set grepprg=rg\ --vimgrep\ --smart-case\ --follow
 set hlsearch
 set wildmenu

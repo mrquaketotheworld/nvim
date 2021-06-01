@@ -6,7 +6,7 @@ endif
 let g:gitgutter_max_signs = 9999
 let g:gitgutter_sign_added = '▮'
 let g:gitgutter_sign_removed = '▮'
-let g:gitgutter_sign_modified = '⥋'
+let g:gitgutter_sign_modified = '~'
 let g:gitgutter_sign_modified_removed = '±'
 let g:gitgutter_sign_removed_first_line = '⤒'
 let g:gitgutter_preview_win_floating = 1
@@ -18,8 +18,8 @@ endif
 let g:fzf_preview_window = ''
 "ALE
 let g:ale_enabled = 1
-let g:ale_sign_error = '!!'
-let g:ale_sign_warning = '??'
+let g:ale_sign_error = '!'
+let g:ale_sign_warning = '?'
 let g:ale_pattern_options = {
             \   '.rb': {'ale_enabled': 0},
             \   '.ru': {'ale_enabled': 0}
