@@ -1,6 +1,6 @@
 filetype plugin indent on
 syntax enable
-set updatetime=300
+set updatetime=100
 set hidden
 set nobackup
 set nowritebackup
@@ -8,6 +8,7 @@ set complete-=t
 set completeopt-=preview
 set smartindent
 set number
+set signcolumn=number
 set grepprg=rg\ --vimgrep\ --smart-case\ --follow
 set hlsearch
 set wildmenu
@@ -63,11 +64,12 @@ set statusline+=\ %{CurrentGitBranch()}
 set statusline+=%4*\ %m
 set statusline+=%3*
 set statusline+=%=
-set statusline+=%4*\ %{LinterStatus()}\ 
-set statusline+=%3*
+set statusline+=%4*\%{LinterStatus()}
+set statusline+=%6*\%{GitStatus()}
+set statusline+=%3*\ 
 set statusline+=%2*\%l
-set statusline+=%3*\:
+set statusline+=%7*\:
 set statusline+=%2*\%L
-set statusline+=%3*\::
+set statusline+=%7*\::
 set statusline+=%2*\%c
-set statusline+=%3*\ \ %*
+set statusline+=%3*\ \%*

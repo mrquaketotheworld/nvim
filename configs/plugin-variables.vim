@@ -18,8 +18,8 @@ endif
 let g:fzf_preview_window = ''
 "ALE
 let g:ale_enabled = 1
-let g:ale_sign_error = '✖'
-let g:ale_sign_warning = '⚠'
+let g:ale_sign_error = '!!'
+let g:ale_sign_warning = '??'
 let g:ale_pattern_options = {
             \   '.rb': {'ale_enabled': 0},
             \   '.ru': {'ale_enabled': 0}
@@ -41,3 +41,16 @@ let g:coc_global_extensions=[
             \'coc-snippets',
             \'coc-pyright'
             \]
+"NERDTreeGitPlugin
+let g:NERDTreeGitStatusIndicatorMapCustom = {
+                \ 'Modified'  :'m',
+                \ 'Staged'    :'s',
+                \ 'Untracked' :'?',
+                \ 'Renamed'   :'r',
+                \ 'Unmerged'  :'u',
+                \ 'Deleted'   :'d',
+                \ 'Dirty'     :'~',
+                \ 'Ignored'   :'i',
+                \ 'Clean'     :'c',
+                \ 'Unknown'   :'-',
+                \ }
