@@ -28,4 +28,5 @@ Plug 'tpope/vim-fugitive'
 Plug 'icymind/NeoSolarized'
 Plug 'joshdick/onedark.vim'
 Plug 'NLKNguyen/papercolor-theme'
+Plug 'liuchengxu/space-vim-theme'
 call plug#end()

@@ -54,6 +54,7 @@ set shortmess-=S
 set shortmess+=c
 set backspace=indent,eol,start
 set background=dark
+set guicursor=
 "statusline
 set statusline=
 set statusline+=\%*

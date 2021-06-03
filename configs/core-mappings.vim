@@ -3,41 +3,41 @@ let mapleader = "\<Space>"
 cnoremap <C-p> <Up>
 cnoremap <C-n> <Down>
 "rerender window with cleaning highlight search
-nnoremap <c-l> :nohl<cr><c-l>
+nnoremap <silent><C-l> :nohl<Enter><C-l>
 "quickfix list
-nnoremap <silent> [e :cp<CR>
-nnoremap <silent> ]e :cn<CR>
+nnoremap <silent>[e :cp<Enter>
+nnoremap <silent>]e :cn<Enter>
 "save buffer
-nnoremap <leader>w :w!<CR>
+nnoremap <Leader>w :w!<Enter>
 "save and exit
-nnoremap <leader>x :x!<CR>
+nnoremap <silent><Leader>x :x!<Enter>
 "revert buffer
-nnoremap <silent><leader>! :e!<CR>
+nnoremap <silent><Leader>! :e!<Enter>
 "delete buffer without closing window
-nnoremap <silent><leader>c :bp<bar>sp<bar>bn<bar>bd!<CR>
+nnoremap <silent><Leader>c :bp<bar>sp<bar>bn<bar>bd!<Enter>
 "delete buffer with closing window
-nnoremap <silent><leader>; :bd!<CR>
+nnoremap <silent><Leader>; :bd!<Enter>
 "only one window
-nnoremap <silent><leader>o <C-w>o
+nnoremap <silent><Leader>o <C-w>o
 "close window
-nnoremap <silent><leader>q <C-w>q
+nnoremap <silent><Leader>q <C-w>q
 "show registers
-nnoremap <leader>r :reg<CR>
+nnoremap <Leader>r :reg<Enter>
 "jumps between widnows
-tnoremap <A-h> <C-\><C-N><C-w>h
-tnoremap <A-j> <C-\><C-N><C-w>j
-tnoremap <A-k> <C-\><C-N><C-w>k
-tnoremap <A-l> <C-\><C-N><C-w>l
-inoremap <A-h> <C-\><C-N><C-w>h
-inoremap <A-j> <C-\><C-N><C-w>j
-inoremap <A-k> <C-\><C-N><C-w>k
-inoremap <A-l> <C-\><C-N><C-w>l
+tnoremap <A-h> <C-\><C-n><C-w>h
+tnoremap <A-j> <C-\><C-n><C-w>j
+tnoremap <A-k> <C-\><C-n><C-w>k
+tnoremap <A-l> <C-\><C-n><C-w>l
+inoremap <A-h> <C-\><C-n><C-w>h
+inoremap <A-j> <C-\><C-n><C-w>j
+inoremap <A-k> <C-\><C-n><C-w>k
+inoremap <A-l> <C-\><C-n><C-w>l
 nnoremap <A-h> <C-w>h
 nnoremap <A-j> <C-w>j
 nnoremap <A-k> <C-w>k
 nnoremap <A-l> <C-w>l
 "terminal open
-nnoremap <silent><leader>v :vsplit term://bash<CR>:norm A<CR>
-nnoremap <silent><leader>t :split term://bash<CR>:norm A<CR>
+nnoremap <silent><Leader>v :vsplit term://bash<Enter>:norm A<Enter>
+nnoremap <silent><Leader>t :split term://bash<Enter>:norm A<Enter>
 "terminal close
-tnoremap <silent><A-;> <C-\><C-N>:bd!<CR>
+tnoremap <silent><A-;> <C-\><C-n>:bd!<Enter>
