@@ -5,9 +5,9 @@ nnoremap <silent><C-j> :NERDTreeFind<Enter>
 nnoremap <silent> [a :ALEPreviousWrap<Enter>
 nnoremap <silent> ]a :ALENextWrap<Enter>
 "GIT
-nnoremap <silent> <Leader>gs :Git<Enter>
+nnoremap <silent> <Leader>gg :Git<Enter>
 nnoremap <silent> <Leader>gc :Commits<Enter>
-nnoremap <silent> <Leader>gw :Git blame<Enter>
+nnoremap <silent> <Leader>gb :Git blame<Enter>
 nnoremap <silent> <Leader>gr :Gread<Enter>
 nnoremap <silent> <Leader>gl :Git log<Enter>
 "FZF
