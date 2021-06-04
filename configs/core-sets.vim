@@ -65,9 +65,9 @@ set statusline+=\ %{CurrentGitBranch()}
 set statusline+=%4*\ %m
 set statusline+=%3*
 set statusline+=%=
-set statusline+=%4*\%{StatusDiagnostic()}
+set statusline+=%4*\%{DiagnosticStatus()}
 set statusline+=%6*\%{GitStatus()}
-set statusline+=%3*\ 
+set statusline+=%3*\ \ 
 set statusline+=%2*\%l
 set statusline+=%7*\:
 set statusline+=%2*\%L
