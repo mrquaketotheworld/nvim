@@ -4,11 +4,11 @@ if has('python3')
 endif
 "gitgutter
 let g:gitgutter_max_signs = 9999
-let g:gitgutter_sign_added = '▮'
-let g:gitgutter_sign_removed = '▮'
-let g:gitgutter_sign_modified = '~'
-let g:gitgutter_sign_modified_removed = '±'
-let g:gitgutter_sign_removed_first_line = '⤒'
+let g:gitgutter_sign_added = '->'
+let g:gitgutter_sign_removed = '<-'
+let g:gitgutter_sign_modified = '~~'
+let g:gitgutter_sign_modified_removed = '<>'
+let g:gitgutter_sign_removed_first_line = '^^'
 let g:gitgutter_preview_win_floating = 1
 "Ack use rg
 if executable('rg')
@@ -17,7 +17,7 @@ endif
 "FZF
 let g:fzf_preview_window = ''
 "ALE
-let g:ale_enabled = 1
+let g:ale_enabled = 0
 let g:ale_sign_error = '!'
 let g:ale_sign_warning = '?'
 let g:ale_pattern_options = {
@@ -40,6 +40,7 @@ let g:coc_global_extensions=[
             \'coc-java',
             \'coc-solargraph',
             \'coc-snippets',
+            \'coc-eslint',
             \'coc-pyright'
             \]
 "NERDTreeGitPlugin

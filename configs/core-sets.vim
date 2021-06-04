@@ -8,6 +8,7 @@ set complete-=t
 set completeopt-=preview
 set smartindent
 set number
+set signcolumn=number
 set grepprg=rg\ --vimgrep\ --smart-case\ --follow
 set hlsearch
 set wildmenu
@@ -64,7 +65,7 @@ set statusline+=\ %{CurrentGitBranch()}
 set statusline+=%4*\ %m
 set statusline+=%3*
 set statusline+=%=
-set statusline+=%4*\%{LinterStatus()}
+set statusline+=%4*\%{StatusDiagnostic()}
 set statusline+=%6*\%{GitStatus()}
 set statusline+=%3*\ 
 set statusline+=%2*\%l
