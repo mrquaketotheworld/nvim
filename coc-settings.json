@@ -1,6 +1,6 @@
 {
-    "diagnostic.errorSign": "><",
-    "diagnostic.warningSign": "><",
-    "diagnostic.infoSign": "><",
-    "diagnostic.hintSign": "><"
+    "diagnostic.errorSign": "x",
+    "diagnostic.warningSign": "x",
+    "diagnostic.infoSign": "x",
+    "diagnostic.hintSign": "x"
 }
