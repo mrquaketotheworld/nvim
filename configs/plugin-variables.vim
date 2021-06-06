@@ -13,7 +13,7 @@ let g:gitgutter_sign_removed_above_and_below = '‡'
 let g:gitgutter_preview_win_floating = 1
 "Ack use rg
 if executable('rg')
-    let g:ackprg = 'rg -vimgrep'
+    let g:ackprg = 'rg --vimgrep'
 endif
 "FZF
 let g:fzf_preview_window = ''
@@ -21,10 +21,6 @@ let g:fzf_preview_window = ''
 let g:ale_enabled = 0
 let g:ale_sign_error = '!'
 let g:ale_sign_warning = '?'
-let g:ale_pattern_options = {
-            \   '.rb': {'ale_enabled': 0},
-            \   '.ru': {'ale_enabled': 0}
-            \}
 let g:ale_linters = {
             \   'jsx': ['eslint'],
             \   'javascript': ['eslint']
