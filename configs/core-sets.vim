@@ -1,6 +1,6 @@
 filetype plugin indent on
 syntax enable
-set updatetime=100
+set updatetime=150
 set hidden
 set nobackup
 set nowritebackup
@@ -8,14 +8,14 @@ set complete-=t
 set completeopt-=preview
 set smartindent
 set number
-set signcolumn=number
+set numberwidth=1
 set grepprg=rg\ --vimgrep\ --smart-case\ --follow
 set hlsearch
 set wildmenu
 set encoding=utf8
-set tabstop=2
-set softtabstop=2
-set shiftwidth=2
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
 set expandtab
 set history=10000
 set ruler
