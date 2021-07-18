@@ -20,10 +20,10 @@ map <Leader>f <Plug>(easymotion-bd-f)
 "COC
 "main commands
 nmap <silent>gd <Plug>(coc-definition)
-nmap <Leader>kr <Plug>(coc-rename)
-xmap <Leader>ka <Plug>(coc-codeaction-selected)
-nmap <Leader>kf <Plug>(coc-format)
-nmap <Leader>kc :CocCommand editor.action.pickColor<Enter>
+nmap <Leader>cr <Plug>(coc-rename)
+xmap <Leader>ca <Plug>(coc-codeaction-selected)
+nmap <Leader>cf <Plug>(coc-format)
+nmap <Leader>cc :CocCommand editor.action.pickColor<Enter>
 "ShowDocumentation in functions.vim
 nnoremap <silent>K :call ShowDocumentation()<Enter>
 nmap <silent> [g <Plug>(coc-diagnostic-prev)
