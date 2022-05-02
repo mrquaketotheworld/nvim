@@ -2,5 +2,6 @@
     "diagnostic.errorSign": "✗",
     "diagnostic.warningSign": "✗",
     "diagnostic.infoSign": "✗",
-    "diagnostic.hintSign": "✗"
+    "diagnostic.hintSign": "✗",
+    "colors.filetypes": ["css"]
 }
