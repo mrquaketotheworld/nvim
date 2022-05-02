@@ -38,7 +38,8 @@ let g:coc_global_extensions=[
             \'coc-solargraph',
             \'coc-snippets',
             \'coc-eslint',
-            \'coc-pyright'
+            \'coc-pyright',
+            \'coc-highlight',
             \]
 "NERDTreeGitPlugin
 let g:NERDTreeGitStatusIndicatorMapCustom = {
